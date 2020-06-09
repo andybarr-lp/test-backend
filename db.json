@@ -3,5 +3,43 @@
     { "id": "a4bbb7ffc3a613e82daec53754ddc9e8920ea9532151ec2da8408c9528ff7de9", "visitor_id": "1", "name": "Andy" },
     { "id": "57cf9f59f8d39268b9e9cd31961884862118fb4f17adc0228e97845340c436a5", "visitor_id": "2", "name": "Jared" },
     { "id": "671b1ab3-5ffb-4df3-9b3e-3ef872e8ddb9", "visitor_id": "3", "name": "Jackson" }
+  ],
+  "unconv_rules": [
+    {
+      "rule_id": 4,
+      "rule_name" : "Faraway rain",
+      "rule" : "Rain in Tunis",    
+      "amount": 20.00,
+      "category": "weather",
+      "active": true,
+      "origin_name": "Checking",
+      "origin_id": 1,
+      "destination_name": "Mediterranean Summer",
+      "destination_id": 3
+  },
+  {
+    "rule_id": 5,
+    "rule_name" : "Late winter",
+    "rule" : "Snow in New York",    
+    "amount": 20.00,
+    "category": "weather",
+    "active": true,
+    "origin_name": "Checking",
+    "origin_id": 1,
+    "destination_name": "Mediterranean Summer",
+    "destination_id": 3
+},
+{
+  "rule_id": 6,
+  "rule_name" : "Thunder in Seattle",
+  "rule" : "Thunder in Seattle",    
+  "amount": 20.00,
+  "category": "weather",
+  "active": true,
+  "origin_name": "Checking",
+  "origin_id": 1,
+  "destination_name": "Mediterranean Summer",
+  "destination_id": 3
+}
   ]
 }
